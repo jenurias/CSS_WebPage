@@ -1,0 +1,166 @@
+body {
+    background-color: #dae5d0;
+    font: source sans;
+    font-size: 22px;
+    padding: 2em 12em;
+}
+
+.class-for-about {
+    background-color: #dae5d0;
+}
+
+.class-for-contact {
+    background-color: #dae5d0;
+}
+
+.header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text {
+    text-align: center;
+}
+
+/* Adding background color for top navigation bar */
+.topnav {
+    background-color: #A0BCC2;
+    overflow: hidden;
+}
+/* Changing style of links to remove 'links' and make them boxes */
+.topnav a {
+    float: left;
+    color: #f9ebc8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+/* Changes color of links when you hovor over them */
+.topnav a:hover {
+    background-color: #fefbe7;
+    color: black;
+}
+
+/* Changes color depending on which page is active */
+.topnav a.active {
+    background-color: #82a284;
+    color: #f2f2f2
+}
+
+/* Styling Unordered list and heading */
+.list {
+    text-align: center;
+    list-style-type: circle;
+    line-height: 1.5;
+    color:#82a284;
+}
+
+.best-seller {
+    color: red;
+    text-align: center;
+}
+
+/* Styling the table and image */
+.table td, .table th {
+    padding: 10px;
+    border-collapse: collapse;
+    width: 20%;
+    border: 2px solid black;
+    background-color: #f9ebc8;
+    box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.table thead tr {
+    font-style: italic;
+    color: #5f7161
+}
+
+/* ABOUT US PAGE */
+.about-header {
+    text-decoration: double;
+}
+
+.about-header h2 {
+    color:#68a7ad   
+}
+
+.photo {
+    text-align: center;
+    font-size: 12pt;
+}
+
+.social {
+    font-size: 14pt;
+}
+.social-instagram {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  }
+  
+  .social-instagram:after,
+  .social-instagram:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+    content: ''
+  }
+  .social-instagram:before {
+    border-radius: 20%
+  }
+  .social-instagram:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%
+  }
+/* Had to comment out TikTok link on index.html page since I have been very unsuccessful in finding ways to add it to my webpage using strictly CSS. */
+
+/* CONTACT US PAGE -- Form Details */
+.form-instructions {
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #A0BCC2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: medium;
+}
+
+.form {
+    border-radius: 7px;
+    background-color: #a0bcc2;
+    padding: 20px;
+}
+
+input[type=submit] {
+    background-color: #82a284;
+    color: lightcyan;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* change color of submit button when hovering over it */
+input[type=submit]:hover {
+    background-color: #5f7161;
+}
+
+
+
